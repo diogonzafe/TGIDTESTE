@@ -1,0 +1,4 @@
+CREATE TABLE sistema (
+        id TEXT PRIMARY KEY UNIQUE NOT NULL,
+        lucro DECIMAL NOT NULL
+);
