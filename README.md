@@ -192,6 +192,8 @@ Cliente:
 
 Considerações Finais
 
+Em sumo o sistema tem dois usuários, cliente e empresa ,e o sistema cobra uma taxa de 3% para cada transação, os clientes fazem depósitos pelas empresas de acordo com o saldo disponivel. Ao realizar uma transação é enviado um callback para empresa, utilizei o site webhook para isso, conforme solicitado, e usei o MailSender do Spring para enviar um e-mail de notifição para o cliente. As taxas coletadas ficam armazenados e somadas na tabela do sistema, como se fosse um saldo de lucros do sistema.
+
 Esse projeto foi desenvolvido 100% em Java, utilizando o framework Spring Boot. Durante o desenvolvimento, busquei atender ao máximo os requisitos propostos, além de aprender bastante durante o processo.
 
 Obrigado pela oportunidade!
