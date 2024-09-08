@@ -190,13 +190,9 @@ Cliente:
 
  
 
-Resumo:
+Considerações Finais
 
-Essa foi apenas uma interpretação do teste, tentei cumprir o máximo de requisitos de acordo com o tempo, gostei muito de fazer e aprendi muito com o precesso.
-
-Em sumo o sistema tem dois usuários cliente e empresa e o sistema cobra uma taxa de 3% para cada transação, os clientes fazem depósitos pelas empresas de acordo com o saldo disponivel. Ao realizar uma transação é enviado um callback para empresa, utilizei o site webhook para isso, conforme solicitado, e usei o MailSender do Spring para enviar um e-mail de notifição para o cliente.
-
-Projeto feito 100% em Java utilizando o framework Spring Boot.
+Esse projeto foi desenvolvido 100% em Java, utilizando o framework Spring Boot. Durante o desenvolvimento, busquei atender ao máximo os requisitos propostos, além de aprender bastante durante o processo.
 
 Obrigado pela oportunidade!
 
