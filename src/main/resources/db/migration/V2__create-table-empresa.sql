@@ -1,0 +1,5 @@
+CREATE TABLE empresa (
+    cnpj TEXT PRIMARY KEY UNIQUE NOT NULL,
+    name TEXT UNIQUE NOT NULL,
+    saldo DECIMAL
+);
