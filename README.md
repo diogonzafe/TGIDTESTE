@@ -130,6 +130,11 @@ Banco de Dados:
 Utilizei o Postgres, segue tabelas abaixo para melhor compreensão dos models e dos controllers.
 Para criar as tabelas utilizei a dependencia flyway migrations no Spring, onde posso controler as versões do banco através das migrations.
 
+Diagrama de classes:
+
+![TGID drawio](https://github.com/user-attachments/assets/9abb53b9-40f9-4fcd-be14-2365ee1dc1f7)
+
+
 Dependencias:
 
 		<dependency>
