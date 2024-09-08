@@ -37,7 +37,7 @@ ________________________________________________________________________________
 
 Agora vamos para as transações.
 
-Agora temos o controller das transações.
+segue abaixo o controller das transações.
 
 O endpoint é esse: http://localhost:8080/transacoes
 
