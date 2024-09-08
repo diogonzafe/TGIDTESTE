@@ -21,10 +21,12 @@ public class clienteController {
     @Autowired
     private ClienteRepository clienteRepository;
 
+
     @PostMapping
     public ResponseEntity<?> registerCliente(@RequestBody @Valid clienteDTO data) {
         Optional<cliente> existingCliente = clienteRepository.findByCpf(data.cpf());
 
+        //Verifica se o CPF ja foi cadastrado
         if (existingCliente.isPresent()) {
             return ResponseEntity.status(HttpStatus.CONFLICT).body("CPF já cadastrado.");
         }

@@ -20,6 +20,8 @@ public class cliente {
     @Column(unique = true)
     private String cpf;
 
+    private String email;
+
     @NotNull
     private String name;
 
@@ -27,5 +29,6 @@ public class cliente {
 
         this.cpf = clienteDTO.cpf();
         this.name = clienteDTO.name();
+        this.email = clienteDTO.email();
     }
 }

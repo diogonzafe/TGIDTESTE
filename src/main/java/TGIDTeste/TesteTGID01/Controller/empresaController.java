@@ -24,6 +24,7 @@ public class empresaController {
     public ResponseEntity<?> registerEmpresa(@RequestBody @Valid empresaDTO data) {
         Optional<empresa> existingEmpresa = empresaRepository.findByCnpj(data.cnpj());
 
+        //Verifica se a empresa ja existe
         if (existingEmpresa.isPresent()) {
             return ResponseEntity.status(HttpStatus.CONFLICT).body("CNPJ já cadastrado.");
         }

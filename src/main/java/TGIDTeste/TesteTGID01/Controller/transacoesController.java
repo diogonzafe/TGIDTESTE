@@ -33,9 +33,11 @@ public class transacoesController {
 
     @PostMapping
     public ResponseEntity<String> addSaldo(@RequestBody @Valid transacoesDTO data) {
+        //Procura no Repositório
         Optional<empresa> empresaOpt = empresaRepository.findByCnpj(data.cnpj());
         Optional<cliente> clienteOpt = clienteRepository.findByCpf(data.cpf());
 
+        //Verifica se a empresa e o cliente existem
         if (!empresaOpt.isPresent() || !clienteOpt.isPresent()) {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Dados não encontrados");
         }

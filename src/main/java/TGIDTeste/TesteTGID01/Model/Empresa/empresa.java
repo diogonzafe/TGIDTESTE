@@ -20,12 +20,15 @@ public class empresa {
 
     private String name;
 
+    private String email;
+
     private Double saldo;
 
     public empresa(empresaDTO empresaDTO){
 
         this.cnpj = empresaDTO.cnpj();
         this.name = empresaDTO.name();
+        this.email = empresaDTO.email();
         this.saldo = empresaDTO.saldo();
     }
 }

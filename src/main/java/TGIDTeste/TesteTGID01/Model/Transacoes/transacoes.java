@@ -23,6 +23,7 @@ public class transacoes {
 
     private Double saque;
 
+    //Coluna das tabelas cliente e empresa
     @ManyToOne
     @JoinColumn(name = "cpf", nullable = false)
     private cliente cliente;
