@@ -1,5 +1,4 @@
 # Transações API
-Teste Técnico (TGID) - Vaga: Estágio Back-end
 
 Olá, tudo bem? Vou comentar um pouco sobre e projeto e como usá-lo.
 
@@ -201,7 +200,6 @@ Em sumo o sistema tem dois usuários, cliente e empresa, e o sistema cobra uma t
 
 Esse projeto foi desenvolvido 100% em Java, utilizando o framework Spring Boot. Durante o desenvolvimento, busquei atender ao máximo os requisitos propostos, além de aprender bastante durante o processo.
 
-Obrigado pela oportunidade!
 
 
 
